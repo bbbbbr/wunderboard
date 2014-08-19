@@ -35,7 +35,7 @@ Wunderboard wunder.2 2013 code samples and docs
   5. Release "HWR" button
   6. The board should re-enumerate on the USB bus using it's built-in boot loader
   7. Enumeration can be checked by running : `lsusb | grep -i "atmel"`
-  8 It should show something similar to : `Bus 002 Device 003: ID 03eb:2ffb Atmel Corp. at90usb AVR DFU bootloader`
+  8. It should show something similar to : `Bus 002 Device 003: ID 03eb:2ffb Atmel Corp. at90usb AVR DFU bootloader`
 
 2. Erase the device
   * `sudo dfu-programmer  at90usb1287 erase`
