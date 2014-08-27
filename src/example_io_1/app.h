@@ -1,0 +1,14 @@
+#ifndef app_h
+#define app_h
+
+// app.h
+
+#define ACTION_NONE                       0
+#define ACTION_ACCEL_START_CALIBRATION    1
+#define ACTION_DISPLAY_CLEAR_BITMAP       2
+#define ACTION_CURSOR_TOGGLE_BLINK_MODE   3
+#define ACTION_CURSOR_TOGGLE_COLOR_MODE   4
+#define ACTION_DISPLAY_CLEAR_CURSOR_PIXEL 5
+#define ACTION_DISPLAY_DRAW_CURSOR_PIXEL  6
+
+#endif
