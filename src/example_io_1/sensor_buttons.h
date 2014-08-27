@@ -2,7 +2,7 @@
 #define sensor_buttons_h
 
 // sensor_buttons.h
-// 
+//
 // Buttons are on Port A, active high (pressed = 1)
 //
 // +----------------+
@@ -20,9 +20,9 @@
 struct struct_buttons; // Forward declaration
 
 typedef struct struct_buttons {
-	unsigned char io_buttons;
-	unsigned char io_buttons_last;
-	unsigned char action_request;
+    unsigned char io_buttons;
+    unsigned char io_buttons_last;
+    unsigned char action_request;
 } struct_buttons;
 
 void Sensor_Buttons_Init(struct_buttons *);

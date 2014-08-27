@@ -14,9 +14,9 @@
 void Sensor_StatusLEDs_Update(unsigned char status_enable, unsigned char status_mask)
 {
     // Clear bits indicated by mask
-	PORTC &= ~status_mask;
+    PORTC &= ~status_mask;
 
-	// Set bits if requested bits
-    if (status_enable)    	
-		PORTC |= status_mask;
+    // Set bits if requested bits
+    if (status_enable)
+        PORTC |= status_mask;
 }

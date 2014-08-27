@@ -2,7 +2,7 @@
 #define sensor_display_h
 
 // sensor_display.h
-// 
+//
 // Display is accessed through Port E
 //
 // Addressing :
@@ -18,11 +18,11 @@
 //
 // Logical layout (abstracted) :
 //
-//   7/left --------> 0/right : Columns : write to Port E 
+//   7/left --------> 0/right : Columns : write to Port E
 //   |
-//   | 
 //   |
-//   \|/   
+//   |
+//   \|/
 //   0    Rows : top = 7 = msbit, bottom = 0 = lsbit
 //
 // X Axis :
@@ -32,8 +32,8 @@
 //   * Column latching is performed by toggling Port B.7 high, delaying 1ms, then low
 //   * Right-most column is written "first"
 //   * Left-most column gets written "last"
-// 
-// Y Axis : 
+//
+// Y Axis :
 //   * Stored as bitpacked pixels, one bit per pixel - per color channel
 //   * One byte stores entire column of pixel data
 //   * msbit = top
@@ -45,11 +45,11 @@
 struct struct_cursor; // Forward declaration
 
 typedef struct struct_cursor {
-	unsigned char y;
-	unsigned char x;
-	unsigned char ybits;
-	unsigned char cursor_blink_mask;
-	unsigned char cursor_blink_counter;
+    unsigned char y;
+    unsigned char x;
+    unsigned char ybits;
+    unsigned char cursor_blink_mask;
+    unsigned char cursor_blink_counter;
 } struct_cursor;
 
 void Sensor_Display_ClearBitmap(void);

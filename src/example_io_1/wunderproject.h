@@ -13,10 +13,10 @@
 #define STRING_SIZE 31
 
 //Physical SPI pins
-#define MISO	3
-#define MOSI	2
-#define SCLK	1
-#define LATCH	7
+#define MISO    3
+#define MOSI    2
+#define SCLK    1
+#define LATCH   7
 
 
 

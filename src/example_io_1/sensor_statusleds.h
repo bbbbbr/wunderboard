@@ -2,7 +2,7 @@
 #define sensor_statusleds_h
 
 // sensor_statusleds.h
-// 
+//
 // Status LEDs are on Port C (active high)
 //
 // +----------------+

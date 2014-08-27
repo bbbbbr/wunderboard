@@ -13,12 +13,12 @@
 struct struct_accel; // Forward declaration
 
 typedef struct struct_accel {
-	unsigned int  accel_zero_accum[3];     // Accumulates multiple zero reference point samples for averaging
-	unsigned char accel_zero[3];           // Stores derived zero reference point values
-	unsigned char accel_pos[3];            // Stores current position relative to origin
+    unsigned int  accel_zero_accum[3];     // Accumulates multiple zero reference point samples for averaging
+    unsigned char accel_zero[3];           // Stores derived zero reference point values
+    unsigned char accel_pos[3];            // Stores current position relative to origin
 
-	unsigned char accel_zero_samples_left; // Trigger sensor zeroing on startup
-	unsigned char accel_reset_smoothing;
+    unsigned char accel_zero_samples_left; // Trigger sensor zeroing on startup
+    unsigned char accel_reset_smoothing;
 } struct_accel;
 
 
