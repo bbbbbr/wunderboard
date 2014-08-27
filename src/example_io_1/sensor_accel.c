@@ -119,7 +119,3 @@ signed int Sensor_Accel_Read(unsigned char accel_axis, struct_accel *accel_data)
 
     return (accel_new_data);
 }
-
-
-
-

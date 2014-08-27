@@ -147,4 +147,3 @@ void SendStringUSART(char *str){
 	}
 	return;
 }
-

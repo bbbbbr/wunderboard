@@ -71,6 +71,3 @@ void main(void) {
 	} //end infinite while loop
 
 } //end main
-	
-	
-	
